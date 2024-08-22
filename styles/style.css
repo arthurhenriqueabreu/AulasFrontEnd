@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    background: linear-gradient(145deg, #4587d2, #7d53b5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center; /* Centraliza horizontalmente*/
+    align-items: center;/*Centraliza verticalmente*/
+}
+section{
+    padding: 90px 50px;
+
+}
+section, form{
+    background-color:#FFF;
+    width: 300px;
+    padding: 90px 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 10px;
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
